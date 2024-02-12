@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
   let cellId = form.inputId.value;
   let cell = document.getElementById(cellId);
   if(previousSelectedElement){
-    previousSelectedElement.style.backgroundColor="white";
+    previousSelectedElement.style.backgroundColor="#000000";
 	}
   previousSelectedElement = cell;
   let color = form.color.value;
