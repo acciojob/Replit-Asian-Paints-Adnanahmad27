@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const grid = document.querySelector(".grid-container");
-const reset = document.getElementById("Reset");
+const reset = document.getElementById("reset_button");
 const form = document.getElementById("form");
 let previousSelectedElement = null;
 
